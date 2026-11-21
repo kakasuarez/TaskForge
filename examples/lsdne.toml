@@ -1,0 +1,2 @@
+name = "List DNE"
+command = ["ls", "/does-not-exist"]

@@ -1,0 +1,3 @@
+# Example file
+name = "List files"
+command = ["ls", "-la"]

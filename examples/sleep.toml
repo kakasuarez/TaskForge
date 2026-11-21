@@ -1,0 +1,2 @@
+name = "Sleep"
+command = ["sleep", "1"]
