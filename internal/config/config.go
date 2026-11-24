@@ -18,7 +18,7 @@ func Load(path string) (Task, error) {
 	var task Task
 	metadata, err := toml.DecodeFile(path, &task)
 	if err != nil {
-		return Task{}, fmt.Errorf("failed to load config: %s: %w", path, err)
+		return Task{}, fmt.Errorf("load config %s: %w", path, err)
 	}
 	var unrecog []string
 	for _, key := range metadata.Undecoded() {
